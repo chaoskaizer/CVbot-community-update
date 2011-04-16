@@ -1,0 +1,5 @@
+version=1.7
+author=p627
+descr=See your city in a 2D map
+link=http://www.allbots.org/forum/viewtopic.php?f=28
+

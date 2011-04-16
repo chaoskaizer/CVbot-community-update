@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>The Bot is winding up...</title>
+		<link href="theme.css" type="text/css" rel="stylesheet">
+		<script type="text/javascript">
+			document.write("<style>body{ background-image: url('" + imagePath("images\\tuscangreen.png") + "'); }</style>");
+			var imageExists = false;
+			function imagePath(URL)
+			{
+				var myImage = new Image();
+				myImage.onLoad = imageGood;
+				myImage.onError = imageBad;
+				myImage.src = URL;
+				if(imageExists)
+				{
+					return URL;
+				}
+				else
+				{
+					return "images/" + /([^\\]+)$/.exec(URL)[1];
+				}
+			}
+			function imageGood()
+			{
+				imageExists = true;
+			}
+			function imageBad()
+			{
+				imageExists = false;
+			}
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="containerB" class="dark">
+				<div class="light">
+					<div class="title" style="padding:10px;">
+						<font class="title" style="font-size:18pt;">Please wait ...</font>
+					</div>
+					<div class="title" style="padding-left:10px; padding-right:10px;">
+						<div class="shadow">
+							<div class="dark">
+        						<div class="text" style="padding-bottom:0px;"><script type="text/javascript">document.write("<img src=\"" + imagePath("images\\mamabot.jpg") + "\" border=\"1\">");</script></div>
+							</div>
+						</div>
+					</div>
+					<div class="title" style="padding:10px;">
+						<font class="title" style="font-size:18pt;">... the Bot is working.</font>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

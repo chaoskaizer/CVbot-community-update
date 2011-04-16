@@ -1,0 +1,5 @@
+version=2.1
+author=p627
+descr=Get unlimited material and complete your community buildings faster.
+link=http://www.allbots.org/forum/viewtopic.php?f=28&t=523
+

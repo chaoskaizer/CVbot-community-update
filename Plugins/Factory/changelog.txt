@@ -1,0 +1,8 @@
+Factory v0.1 by Phreaker
+
+Desc: Harvest premium goods from factory the easiest ways :)
+
+Changelog:
+
+v0.1
+- Initial release

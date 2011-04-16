@@ -1,0 +1,58 @@
+Unofficial update for Bot 1.58, by phreaker
+
+Credits:
+BOT: Admin
+Multi Plugin: 12Christiaan
+Map Plugin: p627
+Wikia Plugin: Lucifer
+
+
+Changes from the Official 1.58
+
+Update #05 15 March 2011
+
+- Added Coin4 Plugin, to remove delete the Coin4 folder in the Plugins folder
+- Wall Plugin: Fixed the Do Not Use this message
+- Factory Plugin: Added the capture bandit option, not working yet, cos i accidentally captured the bandit on my city so need more info, will be functional on next update
+- Added bandit info on the user info, if bandit spawn show 1 it means there's a bandit on the business buildings
+- Buildings Plugin: Be able to supply business building without using goods. remember choose only one supply option. will improve this later :)
+- Factory Plugin: Add a check so it wont try to harvest when you dont have any factory
+- Crops Plugin : Added crop chooser so you can choose which crops you want to harvest.
+- Unlimited Link Plugin : Fixed wrong item type and add the new materials
+
+Update #04 06 March 2011
+
+- Disable Signature Reward in wall Plugin as it make city unbootable. thx to crypnite for the report.
+
+
+Update #03 05 March 2011
+
+- Updated Unlimited Link plugin to include the new material
+- Added Factory Plugin
+- Hide (Warning: fread(): Length parameter must be greater than 0) warning until it can be fixed
+
+
+Update #02 02 March 2011
+
+- for now reverted back the original exe
+- Added auto start so you can automatically start the bot when running the exe, so you dont need to press the start button, to enable go to settings and choose Auto Start to Yes.
+- Fixed many typo in couple of plugins
+- Fixed state doesnt match when you accept neighbor help and harvest at the same time.
+
+Update #01 28 February 2011
+
+- Updated Multi Plugin to Multi 29
+- Fixed "Start accepting work from Neighbors.
+- Added Social Level in User Info *suggested by Jimmymiller
+- Added City Name in User Info
+- Fixed the need to click play every time the session expire (AMFPHP_RUNTIME_ERROR) or when a new game version is released.
+- Updated Unlimited Link to v2.1 (added material for the factory)
+- Added wikia in ExeAutostart.php so it can run without having to start the bot first
+- Moved the hashed image to assets folder, from the default in the tmp_dir so you don't have to download the images again
+- Changed the CVbot.exe so if you run as standard user, it will ask to run as administrator (cos the bot need to run as administrator)
+- Changed the CVbot.exe button to use the windows styles (it look a bit nicer :D)
+- Added Premium Goods in bot info
+- Updated Supply Business Function to make it more compatible with recent zynga update
+- Update Map Plugin to 1.7
+- Quick Fix for Send Ship not working (Not yet fully tested, report please)
+- Fixed Buildings Plugin not saving Send Ship information *reported by Pin_cushion

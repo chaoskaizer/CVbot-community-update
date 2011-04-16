@@ -1,0 +1,4 @@
+version=0.9
+author=p627
+descr=Get many coins with streakbonus3
+link=http://www.allbots.org/forum/viewtopic.php?f=28&t=523

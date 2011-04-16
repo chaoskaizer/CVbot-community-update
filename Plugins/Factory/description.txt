@@ -1,0 +1,4 @@
+version=0.1
+author=Phreaker
+descr=Get Maximum Premium Goods
+link=http://www.allbots.org/forum/viewtopic.php?f=28
